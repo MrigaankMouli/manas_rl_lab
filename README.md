@@ -20,4 +20,4 @@ The project should follow the following directory structure:
 4. `go2_mjlab/algos/` updates the policy with PPO.
 5. `go2_mjlab/runners/` connects env, model, algorithm, logging, and checkpoints.
 6. `scripts/` provides thin command-line entrypoints.
-7. `go2_mjlab/export/` produces deployment artifacts.
+7. `go2_mjlab/export/` produces deployment artifacts --> This should be the Last TODO undertaken, after the base policy has been trained and evaluated on mujoco(also consider sim2sim evaluation before sim2real evaluation).
