@@ -12,4 +12,4 @@ Expected future files:
 - `terrain.py`: terrain generation or terrain loading utilities for rough ground, slopes, boxes, stairs, and curriculum difficulty.
 - `commands.py`: velocity command sampling and command curriculum logic.
 
-Environment code should not know PPO internals. It should expose clean observations, rewards, dones, and info dictionaries.
+Environment code should not know PPO parameters. It should only provide clean observations, rewards, terminations etc.

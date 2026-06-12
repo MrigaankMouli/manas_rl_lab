@@ -8,4 +8,4 @@ Expected future files:
 - `rollout_buffer.py`: storage for observations, actions, rewards, dones, values, log probabilities, advantages, and returns.
 - `advantage.py`: generalized advantage estimation and return computation.
 
-If MJLab already provides PPO primitives, keep this directory as a thin adapter layer instead of duplicating the full algorithm.
+MJLab already provides PPO primitives, keep this directory as a adaption module layer of the provided Mjlab modules instead of duplicating the full algorithm.
